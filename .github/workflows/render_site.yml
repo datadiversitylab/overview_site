@@ -2,9 +2,9 @@ name: Render quarto site
 
 on:
   push:
-    paths:
-      - 'lab-showcase.qmd'
-  workflow_dispatch:
+    branches:
+      - main                 
+  workflow_dispatch:          
 
 permissions:
   contents: write
@@ -25,9 +25,13 @@ jobs:
       - name: Render lab-showcase.qmd
         run: quarto render lab-showcase.qmd
 
+      - name: Rename output to index.html
+        run: mv lab-showcase.html index.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .          # folder where the html was rendered
+          publish_dir: .
           publish_branch: gh-pages
+          exclude_assets: '**.qmd,**.md,**.yml,**.gitignore'
