@@ -1,2 +1,6 @@
-# presidential_visit
-Quick quarto website outlining recent work in the lab
+# Interactive lab website
+This website was developed for a particular visit to the lab happening in March 2026. The goal of the site is to showcase work conducted by students in the Data Diversity Lab. The emphasis is in the interactive aspect of the site as it will help guide the discussion around work in the lab. The landing page presents quick statistics based on the information provided for current students, alumni, and projects. The second tab presents information on students, their projects, and main research areas. The third tab connects students to projects. It shows which particular projects each student is working on, but also enable new projects (unrelated to students) to be included in that component. Finally, there is an interactive network diagram that connects students and projects in a larger context, as it enable the visualization of connections between each of the parties.
+
+## Aestethics
+The overall structure follows the aesthetics that I prefer for my slides and similar. Fonts are simple, combining sans serif (e.g.Fraunces, Figtree). Colors are largely in a pastel tone, combining sage, gold, cream, white, and darker greens for a modern palette. There is a ton of empty space to make the site to feel fresher and not cramped. Transition between sites is smooth and animated and there is an option to highlight particular work in the project side (e.g. those that will be emphasized given time constrains) or students (e.g. those who will speak at the event).
+
