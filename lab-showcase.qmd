@@ -458,21 +458,21 @@ const MEMBERS = [
     highlighted: true
   },
   {
-    name:        "Kiran Basava",
-    role:        "Postdoctoral researcher",
-    photo:       "https://datadiversitylab.github.io/assets/images/our-team/kiran05hs.jpg",
-    projects:    ["p2", "p9", "p10"],
-    keywords:    ["Culture", "Data science"],
-    area:        "Anthropology",
-    highlighted: true
-  },
-  {
     name:        "Michael Nafis",
     role:        "PhD Student",
     photo:       "https://datadiversitylab.github.io/assets/images/our-team/michael00hs.jpg",
     projects:    ["p4", "p9", "p10"],
     keywords:    ["Plant sciences", "Genomics"],
     area:        "Biology",
+    highlighted: true
+  },
+  {
+    name:        "Kiran Basava",
+    role:        "Postdoctoral researcher",
+    photo:       "https://datadiversitylab.github.io/assets/images/our-team/kiran05hs.jpg",
+    projects:    ["p2", "p9", "p10"],
+    keywords:    ["Culture", "Data science"],
+    area:        "Anthropology",
     highlighted: true
   },
   {
@@ -495,7 +495,7 @@ const MEMBERS = [
   },
   {
     name:        "Jhan Carlos Salazar",
-    role:        "Collaborator",
+    role:        "Intern - Collaborator",
     photo:       "https://datadiversitylab.github.io/assets/images/our-team/jhan-c-salazar.png",
     projects:    ["p9", "p10"],
     keywords:    ["Climate change", "Phylogenetics"],
