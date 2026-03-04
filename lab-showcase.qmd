@@ -595,7 +595,7 @@ const PROJECTS = [
   },
   {
     id:          "p11",
-    name:        "UA's Big Idea challenge: Biosphere2",
+    name:        "UofA's Big Idea challenge: Biosphere2",
     description: "Designing and deploying a Digital Twin of Biosphere 2.",
     keywords:    ["Data Science", "Climate Change"],
     area:        "Biology",
